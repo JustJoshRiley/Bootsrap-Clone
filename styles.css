@@ -1,0 +1,86 @@
+body {
+    background-color: white;
+}
+
+/* <!-- NAVBAR --> */
+.navbar {
+    padding: 1.5rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-logo {
+    width: 5vw;
+    height: 12vh;
+}
+
+/* <!-- Yellow Covid Bar --> */
+.covid-bar {
+    background-color: rgb(255,242,184);
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+}
+.covid-info {
+    display: flex;
+    margin-top: 1.5vh;
+}
+
+/* <!-- Background Video --> */
+.background-video {
+    background-image: url('./LyftUp_GM_15s_v7.mp4');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top:300px;
+    padding-bottom:250px;
+}
+
+/* <!-- buttons  --> */
+.header-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+button {
+    border-radius: 56px;
+    font-family: "ProximaNova", sans-serif;
+    background-color: transparent;
+    font-size: 1rem;
+}
+.number-1-blue {
+    border-color: rgb(18,67,175);
+    background-color: rgb(18,67,175);
+    color: white;
+    padding: 10px 20px;
+}
+.number-1 {
+    border-color: black;
+    padding-top: 10px;
+    
+}
+.number-2 {
+    border: none;
+}
+
+/* <!-- BENEFITS --> */
+.row {
+    background: linear-gradient(rgb(231, 231, 239) 0%, rgb(244, 244, 250) 5%, rgb(255, 255, 255) 10%);
+    padding: 32px 0px;
+}
+h3 {
+    color: black;
+}
+a {
+    text-decoration: none;
+    color: black;
+    padding-top: 2%;
+}
+.btn {
+    border-radius: 56px;
+    max-width: 10vw;
+    margin-top: 5px;
+    padding-top: 10px;
+}
